@@ -1,1 +1,35 @@
+# Create the Dockerfile
 
+FROM ubuntu:latest
+RUN apt-get -y update
+RUN apt-get -y install git
+
+
+In the above Dockerfile, we have specified instructions to pull the Ubuntu base image, 
+update the OS, and install Git inside it.
+
+# Building the Image
+
+After creating the Dockerfile, we can build the Docker Image using the Docker build command.
+
+$ sudo docker build -t sample-image .
+or 
+$ docker build -t sample-image .
+
+# Verify whether Image build
+To verify whether the image has been built or not, you can list all the Images.
+
+docker images
+or add sudo before the docker
+
+# Run a Container associated with the Image
+After you have built the Image, you can run the Container associated with the Image, using the Docker Run command.
+
+docker run -it sample-image bash
+
+# Verifying the Installation
+After you have the bash opened up, you can verify whether Git has been installed or not by checking the version of Git.
+
+git --version
+
+This command returns the version of the git installed.
