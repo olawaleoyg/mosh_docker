@@ -1,27 +1,27 @@
 ## Documentation
-# What’s is and image and container
+# What’s is an image and container?
 
 A Docker image packs up the application and environment required by the application to run, and a container is a running instance of the image
 
 An image is an instruction file with all the reps and config required to run a program
 
-Container - an instance of an image runs a program
+# Container - an instance of an image runs a program
 
 A Docker image is a file that contains all the files necessary to run an application. This includes all of the operating system files, as well as application code and any required supporting libraries. A Docker container is a Docker image that has been started.
 
-An image
+# An image
 - [ ] Cut down os
 - [ ] Third party libraries
 - [ ] Application files
 - [ ] Env variables 
 - [ ] 
-A Container
+# A Container
 - [ ] Is just a process
 - [ ] Can be stopped & restarted
 - [ ] Provides an isolated environment
 
 
-MANAGING PROCESS DOCKER
+# MANAGING PROCESS DOCKER
 these commands are essential
 
 ps 
@@ -32,10 +32,8 @@ sleep 3 - prompt sleep for 3seconds
 kill 38
 (38) is the id seen using ps cmd 
 
-_______________________________
-
 ￼_______________________________
-MANAGING USER
+# MANAGING USER
 
 Useradd - managing user
 usermod
@@ -43,7 +41,7 @@ userdel - delete user
 ![binx22binbinusrsbinnologin](https://github.com/olawaleoyg/mosh_docker/assets/130187654/9d8d0eaa-8463-4997-949d-b1440c04f00d)
 
 ￼
-NOTE: USING ANY OF THESE
+# NOTE: USING ANY OF THESE
 $useradd
 $usermod  has different option of
 
@@ -56,7 +54,7 @@ cat /etc/passwd
 Checking for the password
 
 ____________________________________
-LOGIN AS JOHN INSTEAD ROOT
+# LOGIN AS JOHN INSTEAD ROOT
 Docker ps (to see the running container)
 docker exec 2f848383 bash (pick the container id)
 
@@ -84,7 +82,7 @@ Also	 only root can add a new user or group to the system
 adduser is different from useradd, adduser interact with you as you add the user name, password, full name, room number, etc
 
 
-Managing groups
+# Managing groups
 _____________________________
 groupadd yournamechoice
 
@@ -99,11 +97,11 @@ Grep John /etc/passwd
 - Groups John
 - To see if its added
 
-FILE PERMISSION
+# FILE PERMISSION
 ____________________________
 
-drwxr - if letter start with d - directory
-If start with - its a file
+drwxr - if letter start with d it mean it is a *directory*
+If it starts with this symbol (-) it mean it is a *file*
 
  -rw-r—r  —
 ![Screenshot 2023-07-04 at 13 55 49](https://github.com/olawaleoyg/mosh_docker/assets/130187654/aefefb6e-70e1-4774-a734-33b29b92b43f)
