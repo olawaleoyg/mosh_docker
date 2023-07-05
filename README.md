@@ -62,15 +62,22 @@ docker exec 2f848383 bash (pick the container id)
 
 
 >>>>>>>>>
+>>>>>>>>>![1527 deploy sh](https://github.com/olawaleoyg/mosh_docker/assets/130187654/aaaed44f-5699-47ae-a9df-9186223d2ed4)
+
 ￼
 docker exec  2f848383 bash (if nothing happen then ad -it to interact)
 
 Docker exec -it  2f848383 bash (to login as root)
+![Screenshot 2023-07-04 at 13 55 49](https://github.com/olawaleoyg/mosh_docker/assets/130187654/49ca10e1-5c6a-4d29-8b49-dabe8dead103)
+
 ￼
 The image shows how I log in from root to the user name
 
 The user cannot access some file except as root user,
 The image below shows that when I try to shadow the etc folder, permission was denied
+
+![john@ac7f1ec6c8a9S cat etcshadow](https://github.com/olawaleoyg/mosh_docker/assets/130187654/1b8e7aeb-8450-4636-88ec-8d6c3757bbaf)
+
 ￼
 Also	 only root can add a new user or group to the system
 
@@ -99,6 +106,8 @@ drwxr - if letter start with d - directory
 If start with - its a file
 
  -rw-r—r  —
+![Screenshot 2023-07-04 at 13 55 49](https://github.com/olawaleoyg/mosh_docker/assets/130187654/aefefb6e-70e1-4774-a734-33b29b92b43f)
+![1527 deploy sh](https://github.com/olawaleoyg/mosh_docker/assets/130187654/147d4f0c-19bd-4d69-896c-fee9e4e3b6c3)
 
 ￼
 ￼
