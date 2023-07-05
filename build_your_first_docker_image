@@ -1,0 +1,15 @@
+## BUILD YOUR FIRST DOCKER IMAGE
+
+Open your vscode, download one quickly if you dont have that.
+
+get a package.json that you intend to you for your image, depending on what you intend to build.
+
+save it in the vscode with package.json, then create a Dockerfile
+go to docker hub and search alpine, reason for this instead of node full package, we don't want to download a heavy file that could be about 200-300mb or more instead we get a lightweight file "alpine"
+
+then build that on your terminal
+
+cd to the directory of your choice, for mine I'm using react-app directory
+run this
+
+# react-app % docker build -t react-app .
