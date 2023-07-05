@@ -24,7 +24,8 @@ app.listen(3000, () => {
 # Now, initialize the node project using the following command.
 npm init
 
-This will add the package.json file, which holds information about our projects like scripts, dependencies, and versions. It will ask for the package’s name, version, and many others (you can go with defaults by pressing ENTER).
+This will add the package.json file, which holds information about our projects like scripts, dependencies, and versions. 
+  It will ask for the package’s name, version, and many others (you can go with defaults by pressing ENTER).
 
 
   Install the express library and add it to the package.json file as a dependency.
