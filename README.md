@@ -33,17 +33,21 @@ kill 38
 (38) is the id seen using ps cmd 
 
 _______________________________
+
+￼_______________________________
 MANAGING USER
 
 Useradd - managing user
 usermod
 userdel - delete user
+![binx22binbinusrsbinnologin](https://github.com/olawaleoyg/mosh_docker/assets/130187654/9d8d0eaa-8463-4997-949d-b1440c04f00d)
 
+￼
 NOTE: USING ANY OF THESE
 $useradd
 $usermod  has different option of
+
 _______________________________________
-￼![binx22binbinusrsbinnologin](https://github.com/olawaleoyg/mosh_docker/assets/130187654/f6096b18-5c92-4db5-9561-303a2fb88df4)
 
 usermod  -s /bin/bash john
 cat /etc/passwd 
@@ -93,9 +97,10 @@ ____________________________
 
 drwxr - if letter start with d - directory
 If start with - its a file
-<img width="619" alt="Screenshot 2023-07-05 at 10 49 24" src="https://github.com/olawaleoyg/mosh_docker/assets/130187654/6117ce6f-09c4-44d7-8011-59f856580079">
 
  -rw-r—r  —
 
 ￼
+￼
+
 ￼
