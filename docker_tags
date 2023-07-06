@@ -1,0 +1,18 @@
+# DO A CLEAN BUILD
+  RUN
+  docker build -t react-app .
+
+  docker images
+
+  then lets tag while building
+  tags can be like a code name (buster) or version (2.1) or number (77)
+
+  __________________________________
+  docker build -t react-app:buster
+  __________________________________
+    docker build -t react-app:77
+  __________________________________
+    docker build -t react-app:2.10
+
+    *same syntax is used to remove the tags* 
+      
