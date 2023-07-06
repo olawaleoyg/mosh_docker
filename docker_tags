@@ -14,5 +14,7 @@
   __________________________________
     docker build -t react-app:2.10
 
-    *same syntax is used to remove the tags* 
+    *same syntax is used to remove the tags* as shown below by adding *remove*
+
+    **docker image remove react-app:2.10**
       
