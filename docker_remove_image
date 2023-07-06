@@ -1,0 +1,27 @@
+# Show the list of images
+
+  docker images 
+  or docker image ls
+
+  You will see a lot of images (loose) images that no relation with your  work to get rid of it,
+
+  docker image prune, yes
+  run docker ps
+
+    you will no container
+
+    run docker ps -a
+
+    you will see some stopped containers
+
+    run this to remove all stopped container
+    docker container prune
+
+    docker image prune again
+
+    TO SHOW THE LIST OF THE IMAGES
+    docker images 
+     docker image rm (ID or name)
+      
+    
+    
